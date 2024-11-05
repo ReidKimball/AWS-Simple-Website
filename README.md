@@ -1,7 +1,14 @@
 # AWS-Simple-Website
 Simple website hosted on AWS that connects to Stripe.
 
-## Architecture Design
+## Problem
+A friend had recorded an audio file they wanted to share with others, but also receive payment in the form of donations.
+
+## Solution Architecture Design
+I designed a very simple architecture for a website where people can donate money in order to receive access to the audio file.
+
+The architecture uses CloudFront to encrypt data with HTTPS, which is important to make users feel more safe using a website they might buy a product from.
+The website HTML, CSS, and audio files are hosted on an S3 Bucket website endpoint.
 
 ![AWS Architecture Diagram for Website](https://github.com/user-attachments/assets/972de909-9550-4964-b4a4-8e3a7c4e5955)
 
