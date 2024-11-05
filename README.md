@@ -14,3 +14,6 @@ The website HTML, CSS, and audio files are hosted on an S3 Bucket website endpoi
 
 ## URL
 https://d26u9dbf28sbcq.cloudfront.net
+
+## Next Steps
+If I had a registered domain, I would use Route 53 to setup a host zone, configure DNS, and connect the registred domain so that the URL would be more human-readable.
